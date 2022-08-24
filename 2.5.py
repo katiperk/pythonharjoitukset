@@ -11,5 +11,8 @@ massa = luotinyt + naulanyt + leiviskanyt
 # print(f"Massa nykymittojen mukaan:\n{massa:2.0f} grammaa.")
 
 kilot = (massa / 1000)
+grammat = ((kilot/1) - (kilot//1)) * 1000
 print(f"Massa nykymittojen mukaan:")
-print(math.floor(kilot))
+print(math.floor(kilot), end = ' ')
+print("kilogrammaa ja", end = ' ')
+print(f"{grammat:.2f} grammaa.")
