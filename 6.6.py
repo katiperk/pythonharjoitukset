@@ -1,7 +1,7 @@
 import math
 
 def pizzaPerNelio(halkaisija, hinta):
-    ala = halkaisija * math.pi
+    ala = (halkaisija / 100) * math.pi #sadalla jako turhahko, mutta tehtävänannossa haluttiin hinta per neliömetri
     neliohinta = hinta / ala
     return neliohinta
 
