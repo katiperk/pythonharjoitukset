@@ -16,5 +16,7 @@ neliohinta_toka = pizzaPerNelio(hinta2, ala)
 
 if neliohinta_eka > neliohinta_toka:
     print("Pizza numero kaksi antaa parempaa vastinetta rahalle.")
-else:
+elif neliohinta_eka < neliohinta_toka:
     print("Pizza numero yksi antaa parempaa vastinetta rahalle.")
+else:
+    print("Pizzat ovat yhtä hyvää vastinetta rahalle.")
