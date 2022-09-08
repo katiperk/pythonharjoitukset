@@ -2,7 +2,7 @@ def parittomatPois(luvut):
     for i in luvut:
         if i % 2 != 0:
             luvut.remove(i)
-    return luvut
+    return [i for i in luvut if i % 2 == 0]
 
 luvut = []
 
